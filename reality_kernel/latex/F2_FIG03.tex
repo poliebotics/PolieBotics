@@ -1,0 +1,37 @@
+\input{_preamble.tex}
+
+\begin{document}
+
+\figheader{3}{3}{3}
+
+\begin{center}
+\begin{tikzpicture}[node distance=8mm]
+
+% ============== TOP ROW: Budget + Episode-design ==============
+\node[cbox-tall, minimum width=5cm, minimum height=2.4cm, align=center] (budget)
+  {\textbf{BUDGET AUTHORITY}\\[3pt]
+   \scriptsize Declares adverse-welfare\\budget per episode\\and per agent};
+\node[cbox-tall, right=20mm of budget, minimum width=5cm, minimum height=2.4cm, align=center] (episode)
+  {\textbf{EPISODE-DESIGN AUTHORITY}\\[3pt]
+   \scriptsize Designs environments,\\curricula within budget};
+
+\draw[flowarr] (budget.east) -- node[above] {constrains} (episode.west);
+
+% ============== BOTTOM ROW: Rescue-protection + Post-hoc review ==============
+\node[cbox-tall, below=14mm of budget, minimum width=5cm, minimum height=2.4cm, align=center] (rescue)
+  {\textbf{RESCUE-PROTECTION AUTHORITY}\\[3pt]
+   \scriptsize Immediate agent protection\\\textsc{cannot be overridden}};
+\node[cbox-tall, below=14mm of episode, minimum width=5cm, minimum height=2.4cm, align=center] (review)
+  {\textbf{POST-HOC REVIEW AUTHORITY}\\[3pt]
+   \scriptsize Retrospective audit of\\outcomes and compliance};
+
+\draw[flowarr] (rescue.north) -- node[right, font=\scriptsize] {rescue overrides budget when needed} (budget.south);
+\draw[flowarr] (review.north) -- node[right, font=\scriptsize] {reviews episodes} (episode.south);
+
+% NO OVERRIDE annotation under rescue
+\node[font=\bfseries\footnotesize, below=2mm of rescue] {NO OVERRIDE};
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

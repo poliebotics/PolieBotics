@@ -1,0 +1,47 @@
+\input{_preamble.tex}
+
+\begin{document}
+
+\figheader{1}{3}{1}
+
+\begin{center}
+\begin{tikzpicture}[node distance=8mm]
+
+% State machine — four states arranged: top row = Embodied, Docked, Dreaming;
+% Re-embodied below Docked (matches existing layout, vertical compactness)
+
+\node[cbox-tall, minimum width=3.6cm] (emb) {EMBODIED\\(physical reality)};
+\node[cbox-tall, right=24mm of emb, minimum width=3.6cm] (doc) {DOCKED\\(simulated Maya)};
+\node[cbox-tall, right=24mm of doc, minimum width=3.6cm] (drm) {DREAMING\\(ephemeral training)};
+\node[cbox-tall, below=14mm of doc, minimum width=3.6cm] (reemb) {RE-EMBODIED\\(pending reconnection)};
+
+% Module 100 enclosure (matches existing convention — runtime state machine subsystem)
+\begin{scope}[on background layer]
+  \node[enclosure, fit=(emb)(doc)(drm)(reemb), inner sep=14pt] (mod) {};
+\end{scope}
+
+% Transitions
+\draw[flowarr] (emb.east) -- node[above] {enter Maya} (doc.west);
+\draw[flowarr] ([yshift=2mm]doc.east) -- node[above] {enter training} ([yshift=2mm]drm.west);
+\draw[flowarr] ([yshift=-2mm]drm.west) -- node[below] {exit training} ([yshift=-2mm]doc.east);
+\draw[flowarr] (doc.south) -- node[right] {pre-reconnect checks} (reemb.north);
+\draw[flowarr] (reemb.west) -| node[pos=0.25, below] {actuator restore (checks pass)} (emb.south);
+
+% Prohibition: Dreaming -> Embodied direct (dashed arc with X marker, routed above the state row)
+\draw[line width=0.5pt, dashed, -Latex] (drm.north) to[out=120, in=60, looseness=0.7]
+    node[midway, font=\scriptsize\bfseries, fill=white, inner sep=2pt] {$\times$ \textit{prohibited}}
+    (emb.north);
+
+% ============== Bottom-annotation blocks removed ==============
+% Per-state governance dimensions (actuator authority, meter evaluation,
+% parameter updates), available modes (Awake / Non-REM calibration /
+% Meditative self-probing), and architectural notes about transition
+% prohibitions and digest logging have been moved to the specification
+% body (Brief Description of the Drawings and Detailed Description).
+% This figure retains only the state-machine topology, module enclosure,
+% and transition labels per 37 CFR 1.84(o) / PCT Rule 11.11.
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

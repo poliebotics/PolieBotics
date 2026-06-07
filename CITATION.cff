@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you reference PolieBotics or the Reality Kernel, please cite this repository and the patent; cite the TruthBeam whitepaper for the empirical verification results."
+title: "PolieBotics: projector-camera systems that bind physical interactions to committed, auditable evidence"
+authors:
+  - given-names: "Cathal Ryan"
+    family-names: "Hynes"
+    affiliation: "P.I.G.M.I.E. Ltd / PolieBotics"
+    email: "xathal@protonmail.com"
+type: software
+license: LicenseRef-All-Rights-Reserved
+license-url: "LICENSE"
+repository-code: "https://github.com/poliebotics/PolieBotics"
+keywords:
+  - tamper-evidence
+  - provenance
+  - content-authenticity
+  - projector-camera
+  - structured light
+  - physical security
+references:
+  - type: patent
+    title: "Methods and Apparatus for Projector Camera Systems"
+    authors:
+      - family-names: "Hynes"
+        given-names: "Cathal Ryan"
+    year: 2025
+    notes: "International Patent Application WO 2025/046153 A2 (PCT/EP2024/080780); PIGMIE Filing 1 & Filing 2 pending. Filings published in reality_kernel/."
+  - type: article
+    title: "The PolieBotics Truth Beam: A Tamper-Evident Optical Recording Substrate and Its Learned Verifier"
+    authors:
+      - family-names: "Hynes"
+        given-names: "Cathal Ryan"
+    year: 2026
+    notes: "Companion whitepaper to the patent; published in the TruthBeam repository."

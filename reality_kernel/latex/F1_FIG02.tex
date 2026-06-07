@@ -1,0 +1,57 @@
+\input{_preamble.tex}
+
+\begin{document}
+
+\figheader{2}{7}{2}
+
+\begin{center}
+\begin{tikzpicture}[node distance=8mm]
+
+% Three regime boxes, top row
+\node[cbox-tall, minimum width=3.6cm, minimum height=2.6cm] (tb)
+  {\textbf{TRUTH BEAM}\\(verification)\\[3pt]
+   \scriptsize ``Who are you?''\\optimise $I(\theta)$\\empirical hardness};
+\node[cbox-tall, right=14mm of tb, minimum width=3.6cm, minimum height=2.6cm] (li)
+  {\textbf{LIMAGER}\\(perception)\\[3pt]
+   \scriptsize ``What is out there?''\\optimise $I(S;Y)$\\information gain};
+\node[cbox-tall, right=14mm of li, minimum width=3.6cm, minimum height=2.6cm] (rt)
+  {\textbf{REALITY TRANSFORM}\\(rendering)\\[3pt]
+   \scriptsize ``Make it look like this''\\optimise $d(Y,Y^{*})$\\constrained rendering};
+
+% Objective selection (dashed convergence)
+\node[font=\scriptsize, below=10mm of li] (objsel) {objective selection};
+\draw[line width=0.4pt, dashed] (tb.south) -- (objsel.north west);
+\draw[line width=0.4pt, dashed] (li.south) -- (objsel.north);
+\draw[line width=0.4pt, dashed] (rt.south) -- (objsel.north east);
+
+% Shared physical operator 100
+\node[cbox-wide, below=10mm of objsel, minimum width=10cm, minimum height=1.4cm] (op)
+  {\textbf{SHARED PHYSICAL OPERATOR}\\
+   (emitter + reactor + detector + controller)};
+\draw[flowarr] (objsel.south) -- (op.north);
+
+% Convolution bundle 60
+\node[cbox-wide, below=12mm of op, minimum width=6cm, minimum height=1.0cm] (bundle)
+  {CONVOLUTION BUNDLE $C_{0:T}$};
+\draw[flowarr] (op.south) -- node[right, font=\scriptsize] {same format} (bundle.north);
+
+% Operating point note
+\node[font=\scriptsize\itshape, below=4mm of bundle, text width=12cm, align=center] (opnote)
+  {Operating point: $(\lambda_{\mathrm{TB}},\ \lambda_{\mathrm{L}},\ \lambda_{\mathrm{RT}},\ \alpha)$};
+
+% Reference numerals
+\node[refnum] at ($(tb.north)+(0,8mm)$) (n110) {\textbf{110}};
+\draw[leader] (n110.south) -- (tb.north);
+\node[refnum] at ($(li.north)+(0,8mm)$) (n120) {\textbf{120}};
+\draw[leader] (n120.south) -- (li.north);
+\node[refnum] at ($(rt.north)+(0,8mm)$) (n130) {\textbf{130}};
+\draw[leader] (n130.south) -- (rt.north);
+\node[refnum] at ($(op.east)+(10mm,0)$) (n100) {\textbf{100}};
+\draw[leader] (n100.west) -- (op.east);
+\node[refnum] at ($(bundle.east)+(10mm,0)$) (n60) {\textbf{60}};
+\draw[leader] (n60.west) -- (bundle.east);
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

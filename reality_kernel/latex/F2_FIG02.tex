@@ -1,0 +1,48 @@
+\input{_preamble.tex}
+
+\begin{document}
+
+\figheader{2}{3}{2}
+
+\begin{center}
+\begin{tikzpicture}[node distance=8mm]
+
+% Vertical flow: Nominal -> Diagnostic (soft-gate) -> Rescue (hard-gate, deferred authority) -> Graduated -> Ghost -> Learn -> Review -> recovery to Nominal
+
+\node[cbox-tall, minimum width=5cm, minimum height=1.4cm] (norm) {\textbf{NOMINAL OPERATION}};
+\node[cbox-tall, below=10mm of norm, minimum width=5cm, minimum height=1.8cm] (diag)
+  {\textbf{DIAGNOSTIC MODE}\\\scriptsize increased monitoring cadence\\\scriptsize\textit{(soft gate active)}};
+\node[cbox-tall, below=10mm of diag, minimum width=5cm, minimum height=2.0cm, align=center] (rescue)
+  {\textbf{RESCUE MODE (DEFAULT)}\\\scriptsize rescue-protection authority active\\\scriptsize\textit{deferred authority:}\\\scriptsize\textit{nominal actuator authority suspended}};
+\node[cbox-tall, below=10mm of rescue, minimum width=5cm, minimum height=2.6cm, align=left, inner sep=6pt] (grad)
+  {\textbf{GRADUATED INTERVENTION}\\[2pt]
+   \scriptsize 1.\ Environmental adjustment\\
+   \scriptsize 2.\ Guidance injection\\
+   \scriptsize 3.\ Parameter containment\\
+   \scriptsize 4.\ Actuator restriction\\
+   \scriptsize 5.\ Docked containment};
+\node[cbox-tall, below=10mm of grad, minimum width=5cm, minimum height=1.4cm] (ghost)
+  {\textbf{GHOST RECORD}\\\scriptsize fallen trajectory preserved};
+\node[cbox-tall, below=8mm of ghost, minimum width=5cm, minimum height=1.4cm] (learn)
+  {\textbf{RESCUE LEARNING}\\\scriptsize regression-tested update};
+\node[cbox-tall, below=8mm of learn, minimum width=5cm, minimum height=1.4cm] (review)
+  {\textbf{POST-HOC REVIEW}\\\scriptsize timely?\ proportionate?\ budget-compliant?};
+
+% Arrows
+\draw[flowarr] (norm.south) -- node[right, font=\scriptsize] {floor-approach detected (soft gate)} (diag.north);
+\draw[flowarr] (diag.south) -- node[right, font=\scriptsize] {confirmed at declared confidence (hard gate)} (rescue.north);
+\draw[flowarr] (rescue.south) -- node[right, font=\scriptsize] {challenge ceiling enforced} (grad.north);
+\draw[flowarr] (grad.south) -- (ghost.north);
+\draw[flowarr] (ghost.south) -- (learn.north);
+\draw[flowarr] (learn.south) -- (review.north);
+
+% Recovery arrow: post-hoc review back up to nominal operation (closes the loop)
+\draw[flowarr-fb] (review.west) -| ++(-30mm,0)
+  |- (norm.west);
+\node[font=\scriptsize, align=right, anchor=east] at ($(norm.west)+(-32mm,-4mm)$)
+  {recovery to\\nominal operation\\(checks pass)};
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}

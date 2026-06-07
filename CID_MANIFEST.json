@@ -1,0 +1,41 @@
+{
+  "generated_on": "lambda",
+  "ipfs_version": "0.32.1",
+  "add_flags": "--only-hash --recursive --cid-version=1 --raw-leaves --chunker=size-1048576",
+  "r2_bucket": "truthbeam",
+  "verify_note": "Each CID is reproducible: download the unit from r2:truthbeam/<dest>, run 'ipfs add --only-hash --recursive --cid-version=1 --raw-leaves --chunker=size-1048576 <unit>', confirm the CID matches, then pin. The recording sessions additionally carry generator_code_hash=154be9dd75e0586df456a7eae1528b7334a415f3a977a107c91c6b0751bfc540 committed into S_0; recompute with code/recording/verify/verify_generator_hash.py.",
+  "units": {
+    "sessions_d2": {"cid": "bafybeicrssbic35534es3sbwyzhlw7reboh6wy75htmo53ke5mfsphkmwi", "bytes": 249282572059, "files": 17987}
+    ,
+    "sessions_v10": {"cid": "bafybeier2sfcjrrgw7amne3lwogise6umyeyf6qgivgrmvx3to4vsdsbcm", "bytes": 156873301986, "files": 11279}
+    ,
+    "models": {"cid": "bafybeihffzc7fn5q3u7tf3k5hqkcpaoozdnx7pdm2lw4fmfwkgfwjnzzpm", "bytes": 8204853522, "files": 30}
+    ,
+    "code_src_full": {"cid": "bafybeiguoiy24zqup7pp7wkgjjnhoyojuzlabzwizuabgbrbejz4jgun3i", "bytes": 15006523344, "files": 59046}
+    ,
+    "evidence_paper_analyses": {"cid": "bafybeibrnz5mmz53fz3vw7xpthvaiefm4j4h2yscv2bnhftgorrbjbnnre", "bytes": 109846100174, "files": 22084}
+    ,
+    "evidence_cross_session_ablation": {"cid": "bafybeibs2xyyyevdnpy2a2rr4yipmpht3iyek6fnlzhpcmty7woydipecq", "bytes": 5733053750, "files": 75}
+    ,
+    "evidence_phase_e": {"cid": "bafybeibpgty4iu355or6c2d27djkfyudwdc6rz7i3bjiw7ekcr4tvc3t5i", "bytes": 30249778965, "files": 540}
+    ,
+    "evidence_phase_g_verifier": {"cid": "bafybeibfqaw4wtpzo46a767udltt3vupii66lttrlyiheeajjsffgf2z7a", "bytes": 8123359908, "files": 85}
+    ,
+    "evidence_phase_h_supervised_baseline": {"cid": "bafybeid6ibcxgh2najibjoyqyth2qhryx57ufnzasfpf27krsnpkndvqba", "bytes": 117777894, "files": 30}
+    ,
+    "evidence_phase_f": {"cid": "bafybeiebxm5p4uhh5nm5n2dfzpzykecawamlzwmmzhq6pm6lncplygmdmy", "bytes": 21843709089, "files": 72}
+    ,
+    "evidence_fa_v2": {"cid": "bafybeifpfdgyycg6swe6bj3oonfpn7n3zhikoapjx3vr2znejaevogjvpy", "bytes": 19057156055, "files": 184}
+    ,
+    "evidence_stage_0_cross_verifier": {"cid": "bafybeieomhoxmevp2rol4pvy2z6rzhtzmktzl6yjvdlfhcie7sahdgjvd4", "bytes": 2181839, "files": 55}
+    ,
+    "evidence_closure_package": {"cid": "bafybeiavyfm7vqrvg6mbg5sc7p7jg73n34oodvjfyyy6n5aw6ns2atn7ye", "bytes": 275665508, "files": 55}
+  },
+  "pinata_mirrors": {
+    "truth_beam_poliepals_trailer": "QmejyJWognSYn7UhygsHuQzkDK5vY4izU9SsCL785NsHCN",
+    "20241219_050046_TB_h5": "bafybeiaqbbacosf2evzxiezp4jlrbylgrhe7vw6bwfthuq74fh34bi27bq",
+    "20241219_050046": "bafybeibbapmogu2bro3ettoilge6bp5lic3u2mdohvbutgixnee463kmga",
+    "PolieBotics_mp4": "QmP8JDfeBCunq4VQ8f6XUbiLJK55dG9jLav7k5q2HpnmxS",
+    "PolieBotics": "QmQ2BTcVWBEZqL7pBJNsbfjc37AwT18byknVvPmmQwgWZa"
+  }
+}

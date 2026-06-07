@@ -1,0 +1,56 @@
+\input{_preamble.tex}
+
+\begin{document}
+
+\figheader{3}{7}{3}
+
+\begin{center}
+\begin{tikzpicture}[node distance=8mm]
+
+% ============== LEFT: STATIC (alpha = 0) ==============
+\node[font=\bfseries] (lhdr) at (0,0) {STATIC};
+\node[font=\scriptsize, below=1mm of lhdr] (lhdr2) {($\alpha = 0$)};
+\node[font=\scriptsize, below=1mm of lhdr2] (lhdr3) {separable contributions};
+
+\node[cbox, below=14mm of lhdr3, minimum width=3cm] (lrk) {RK DEVICE};
+\node[scenebox, below=12mm of lrk, minimum width=3cm] (lscene) {SCENE};
+\node[cbox, below=12mm of lscene, minimum width=3.4cm, minimum height=1.3cm] (lbundle) {BUNDLE $C_{0:T}$\\\scriptsize records what scene IS};
+
+\draw[flowarr] (lrk.south) -- node[right] {interrogate} (lscene.north);
+\draw[flowarr] (lscene.south) -- (lbundle.north);
+
+% ============== Vertical separator ==============
+\draw[line width=0.4pt, dashed] ($(lhdr.east)+(2.5cm,0.6cm)$) -- ($(lbundle.east)+(2.5cm,-0.4cm)$);
+
+% ============== RIGHT: YOKED (alpha -> 1) ==============
+\node[font=\bfseries, right=5cm of lhdr] (rhdr) {YOKED};
+\node[font=\scriptsize, below=1mm of rhdr] (rhdr2) {($\alpha \to 1$)};
+\node[font=\scriptsize, below=1mm of rhdr2] (rhdr3) {coupled dynamical system};
+
+\node[cbox, below=14mm of rhdr3, minimum width=3cm] (rrk) {RK DEVICE};
+\node[scenebox, below=12mm of rrk, minimum width=3cm] (rscene) {SCENE};
+\node[cbox, below=12mm of rscene, minimum width=3.4cm, minimum height=1.3cm] (rbundle) {BUNDLE $C_{0:T}$\\\scriptsize records how scene RESPONDS};
+
+\draw[flowarr] (rrk.south) -- node[left] {drive} (rscene.north);
+\draw[flowarr] (rscene.east) to[bend right=40] node[right, font=\scriptsize] {entrain} (rrk.east);
+\draw[flowarr] (rscene.south) -- (rbundle.north);
+
+% Joint-attractor enclosure 200
+\begin{scope}[on background layer]
+  \node[enclosure, fit=(rrk)(rscene), inner sep=10pt] (joint) {};
+\end{scope}
+\node[font=\scriptsize\itshape, anchor=south west] at ($(joint.north west)+(2pt,-2pt)$) {joint attractor};
+\node[refnum] at ($(joint.north east)+(8mm,4mm)$) (n200) {\textbf{200}};
+\draw[leader] (n200.south west) -- (joint.north east);
+
+% ============== Yoke depth alpha axis ==============
+\node[draw, line width=0.4pt, pattern=north east lines, pattern color=black!50,
+      below=14mm of lbundle, xshift=2.5cm, minimum width=12cm, minimum height=4mm] (axis) {};
+\node[font=\scriptsize\bfseries, above=1mm of axis] {YOKE DEPTH $\alpha$};
+\node[font=\scriptsize, anchor=north west] at ($(axis.south west)+(2pt,-1mm)$) {0 (static)};
+\node[font=\scriptsize, anchor=north east] at ($(axis.south east)+(-2pt,-1mm)$) {1 (full entrainment)};
+
+\end{tikzpicture}
+\end{center}
+
+\end{document}
