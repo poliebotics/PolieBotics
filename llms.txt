@@ -49,13 +49,11 @@ filing, the dataset, or the video.
 
 ## Printables (for your human)
 
-- [mask/README.md](mask/README.md): **3D Printable PoliePals Mask For Your Human!** — the author's
-  Cathal costume mask (a **bauta** — author's concept, Alfonso's execution), released as STL / OBJ / STP (full resolution, on R2).
-  Novel reflective **conical-hole eyes** = concealment + visibility; print in reflective material,
-  10–15% oversize, steam to fit.
 - [proboscis/](proboscis/PolieProboscis_DFCP_Spheric_hinged_20260116.zip): **PolieProboscis model** —
   the demonstration-hardware rig (hinged 3-part DFCP SPHERIC; thanks to Alfonso). Included for
-  reference, **not yet test-printed**. A separate printable from the mask.
+  reference, **not yet test-printed**.
+- The author's **Cathal** costume **mask** (a bauta — Alfonso's execution of the author's concept, with
+  novel reflective conical-hole eyes) lives in the PoliePals fiction layer: https://poliepals.com.
 
 ## Related repositories
 

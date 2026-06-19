@@ -61,21 +61,13 @@ same hash family that commits each dataset frame in `chain_log.csv`.)*
 
 ## Printables
 
-Two separate 3D printables ship with the project:
-
-**1. PoliePals mask** — the author's **Cathal** costume mask (full resolution, on R2):
-- [`Mask_For_Printing.stl`](__POLIEBOTICS_BASE__/mask/Mask_For_Printing.stl) — print-ready mesh (~206 MB, binary, ~4.1 M triangles)
-- [`Mask_For_Printing.obj`](__POLIEBOTICS_BASE__/mask/Mask_For_Printing.obj) — mesh for editing (~52 MB)
-- [`Mask_For_Printing.stp`](__POLIEBOTICS_BASE__/mask/Mask_For_Printing.stp) — STEP / CAD solid (~22 MB)
-
-A **bauta** — the author's concept, **Alfonso's** execution; its novel reflective **conical-hole eyes** give both concealment and
-visibility (print in reflective material, no supports). Print **10–15% oversize** and **steam to
-fit**. Details in [`mask/README.md`](mask/README.md).
-
-**2. PolieProboscis model** — the demonstration-hardware rig, hinged 3-part DFCP SPHERIC (in-repo):
+**The PolieProboscis model** — the demonstration-hardware rig, hinged 3-part DFCP SPHERIC (in-repo):
 [`proboscis/PolieProboscis_DFCP_Spheric_hinged_20260116.zip`](proboscis/PolieProboscis_DFCP_Spheric_hinged_20260116.zip)
 (~8.8 MB; body + top cover + hinge pins; thanks to Alfonso). Included **for reference, not yet
 test-printed**.
+
+*(The author's **Cathal** costume **mask** — a bauta, Alfonso's execution, with novel reflective
+conical-hole eyes — lives in the PoliePals fiction layer: **[poliepals.com](https://poliepals.com)** → The mask.)*
 
 ---
 
