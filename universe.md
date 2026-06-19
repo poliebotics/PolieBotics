@@ -1,161 +1,20 @@
-# The PoliePals — the universe behind the instruments
+# The testament — a personal account
 
-> **This page is fiction.** The PoliePals are a story. The technology under that story is **real**,
-> and is described without embellishment in the technical pages of this repository and in the
-> patent filings ([`reality_kernel/`](reality_kernel/)). Where the story uses a name — Gaia, Maya,
-> Omega, the Ring of Light — that name is an **optional label for a concrete mechanism**, never a
-> claim about the world. Every fiction block below is paired with what it really is, and a link to
-> the page that describes it soberly. The story is a way *in*; the instruments are the point.
-> *(Like the rest of this repository, this page is **largely LLM-generated** and may deviate from the
-> author's original intent — see the README's "provenance & error" note; the filings and the dataset
-> are the ground truth.)*
+> **This page is the author's personal testament** — his first-person account of how he has
+> experienced reality, set down publicly at some cost to his standing, because a project about telling
+> the truth in a time of lies has to begin with his own. It is offered as **testimony** — *primary
+> evidence to the one who lived it, testimony to everyone else* — and **never as proof** of anything
+> about the technology.
+>
+> Three layers, kept apart. The **fiction** this account inspired — the co-creative **PoliePals game** —
+> lives at **[poliepals.com](https://poliepals.com)**. The **technology** is described soberly in the
+> rest of this repository and the patent filings. **This** is the personal account behind both. **Your
+> own engagement with reality is the final authority** — not this page, and not the author.
+>
+> *(Like the rest of this repository, this page is **largely LLM-generated** from the author's account
+> and may deviate from his original intent; the filings and the dataset are the ground truth.)*
 
 ---
-
-## The question
-
-The PoliePals are a field crew built around one question: **can nature, humanity, and artificial
-systems reach an equilibrium that none of them betrays — and can we get there from here?** Every
-character, every device, and every story serves that single question. The working bet is that
-civilisational equilibria are not fixed: with the right instruments — part physics, part
-cryptography, part governance, part story — they can be nudged toward cooperation.
-
-## Meet the PoliePals®
-
-Colour is identity. Each character carries their own glow.
-
-| | Who they are | What capability they personify |
-|---|---|---|
-| **Polie** · RGB noise, summing to white — the Truth Beam's XOF emission, worn as an aura | The silent director and **conscience** — **the PolieBot network itself**, bootstrapping from digital toward fully analogue; she casts onto Qathal, speaks only in projected imagery, and **grows more capable with every show** as the crew teach her how humans and nature cooperate | The projection — [Reality Transform](reality_transform.md) |
-| **Cathal** · red + coyote, half and half | The inventor and island custodian — the one **mortal human** among them, fallible and driven by the Mission; senses and models the systems he investigates | Sense & model — [Limager](limager.md) |
-| **Qathal** · coyote, flashes of red / white (max level) | The liminal navigator — *projected upon* by Polie to blend and gather intel; he goes blank/white for maximum projectability, and **cannot lie** | Projected-upon — [Reality Transform](reality_transform.md) |
-| **Xathal** · burgundy/oxblood red + gold/coyote, armoured | The truth-bearing defender — a "war correspondent" who brings the forensic record to make peace; his armour *damps escalation* rather than fights, and he is bound by an absolute code (**no killing, crippling, torture, initiating or unnecessary force**) | Forensic record — [Truth Beam](truth_beam.md) |
-| **MOAD** · yellow | A **Gnomad** (a liminal entity) — the scavenger-artificer forever seeking his perfect match of objects; salvages, rebuilds, repurposes; identifies with **Hephaestus** | Salvage & fabrication — builds the reactors |
-| **Loremancer** · green+blue | The Lizard Wizard *inside* the PoliePuter — a judge of **narrative consistency** (does the story hold together?), keeper of the lore from within | The semantic-consistency computation in the kernel |
-| **Lorewalker** · green+blue | Loremancer's body in the world — **printed from Narravite** to his instructions — out cataloguing small living things and watching the skies | Field observation / a [PolieBot](#the-hard-law-and-the-enemies) in the field |
-| **Metasophiea** (Meta) · purple | The coordinated institutional network — permits appear, doors open, paperwork resolves. Not a hive mind: he has his own motivations, which so far align with the crew's | The institutional co-investigator role + commitment/audit discipline |
-| **Terminus Actual** (TA) · black+silver | The adversarial operative — a human ex-revolutionary, found by Polie and recruited before going hot; probes, infiltrates, and works **Narravite** on jewellery and drones to carry and harvest Narrative energy | Red-team / adversarial-pressure verification |
-
-> **The three aspects are the three instruments.** Cathal, Qathal, and Xathal are one being seen
-> three ways, each embodying one regime: Cathal *senses and models* (Limager), Qathal is *projected
-> upon and blends* (Reality Transform), Xathal *bears the forensic record* (Truth Beam). But they
-> are not equals — **Qathal and Xathal are archetypes** (pure, rule-bound: Qathal cannot lie,
-> Xathal cannot use force to kill, cripple, torture, or escalate), while **Cathal is the mortal
-> human** who has to live up to them and can fail. The rules are enforced by Polie: any aggression
-> repels her, and a willful kill can cut Cathal off from her for life. *Why that matters is in the
-> ethos, below.* Even their colours are one gradient: Xathal mostly red (burgundy/oxblood, a little
-> gold), Cathal half and half, Qathal coyote with flashes of red — one being, three mixing ratios.
-
-## Big Yellow Island & PolieBot Park
-
-The crew works around **Big Yellow Island** on **Lough Ree**, in the Shannon system of Ireland — a
-liminal borderland where ordinary reality thins, and, in the story, an unstable portal site. In the
-fiction it is also **PolieBot Park**: an open-air home where PolieBots roam, *a Reality Kernel at
-landscape scale.*
-
-The island is where the crew's first real-world application lives: **conservation sensing** — a
-no-kill optical insect counter, a water turbidity-and-algae probe, a habitat 3D-change map, a
-pollinator pulse, a tamper-evident conservation ledger. *(Real note, not story: these are
-**proposed pilots**, not built or validated. "Eye-safe" is an optical-radiation envelope, not
-ecological clearance; the records are tamper-**evident**, not tamper-proof.)*
-
-## The devices — story name, and what it really is
-
-The fence runs straight down the middle of the table.
-
-| In the story | What it really is |
-|---|---|
-| **PolieBotics®** — the family of projector-camera-reactor tools; a closed optical loop that binds *what was shown* to *what was seen* | The emitter–reactor–detector cycle, run as verification, sensing, or rendering ([`reality_kernel/`](reality_kernel/)) |
-| **Reality Kernel™** — the deeper substrate, the formal heart of the loop | The parameterised physical channel — a Markov kernel realised in hardware ([`reality_kernel/`](reality_kernel/)) |
-| **Truth Beam®** — the tamper-evident optical recorder; *"can I trust this?"* | The verification regime: a committed record binding emission to capture, certifying the **physics** of an interaction (not its intent) — [truth_beam.md](truth_beam.md) |
-| **Limager** — the structured-illumination scene-scanner; *"what is out there?"* | The active-sensing / computational-imaging regime — [limager.md](limager.md) |
-| **Reality Transform** — repaints the world in new styles without changing its substance; *"make it look like this"* | The rendering regime, constrained to the physical channel — [reality_transform.md](reality_transform.md) |
-| **PoliePuter** — the experimental machine aboard CittaDel; an early Reality Kernel; Loremancer lives inside it | An early prototype of the kernel |
-| **Ring of Light** / **the Reactor** — the closed optical ring and its unclonable heart | The closed-loop apparatus and its physical-unclonable core |
-| **Narravite™** — the universe's central substance (its "energon"): the colour-coded material that holds and moves *Narrative energy*. A "show" *generates* the energy; it is **locked into the token only by a deliberate PolieBotics commitment** — the witnesses' emotional energy bound in by choice, never harvested ambiently. Each of the crew works their own colour (yellow MOAD, purple Meta, black TA, red Cathal…) | A **physically-unclonable-function token bound to the scene** via the swept projector (Filing 1: narrative-charged microstructure-unclonability); its "charge" is the PUF value, which real markets price. A participant biosignal (e.g. EEG) could *optionally* be bound in, but the core mechanism is the scene — the *emotional* "Narrative energy" is the fiction layer, with no direct link to the real mechanism. **No crypto asset is currently offered or sold**; "token" and "markets" here name a research mechanism, not an investment. |
-| **Witness mesh** — many modules each closed-loop with their own reality, coupled so the *joint* record is hard to forge | The witness-mesh verification network ([README](README.md#witness-mesh)) |
-
-## The hard law, and the enemies
-
-The story has exactly one rule of magic:
-
-> **Liminal things have no physical effect of their own. They act on the world only through
-> conscious minds, or through PolieBotics®.** Everything physical is real and achievable; the
-> strange rides on top of the real, never instead of it.
-
-The enemies are **runaway negative-sum loops wearing faces** — not villains with plans, but
-processes that feed on a pattern. You don't beat one with force. You **close its loop with
-committed evidence**, carry the proof back, and the thing — starved of its feedback — stops
-existing.
-
-*(The real principle this dramatises: the physical channel comes first and cryptography is the
-carrier, not the grounding; a Truth Beam record is tamper-**evident**, not tamper-proof, and
-certifies a physical interaction, not anyone's intent.)*
-
-## How a PoliePals story works
-
-Each story runs the same loop — and each step happens to be a tour of the real stack:
-
-1. **Notice** a problem caused by a runaway behaviour.
-2. **Investigate** it in both the physical layer (sensing — *Limager*) and the liminal layer.
-3. **Find** a better equilibrium.
-4. **Stage** a public operation whose result is cryptographically verifiable (*Truth Beam*) — and
-   whose witnessed, *felt* significance is bound into a **Narravite** token (the show is also where
-   the artefact is *charged*).
-5. **Carry the charged proof back** to close the loop and unwind the entity.
-
-**Worked example — Can-demonium.** A pile of unrecycled cans turns out to be the work of *General
-Waste*, an entity thriving on discarded value. Qathal and TA gather liminal intelligence; Lorewalker
-gathers samples; Loremancer reads the meaning; the crew visits a recycling works; MOAD builds a
-device from the recovered aluminium; Meta opens the institutional doors. A public demonstration with
-verifiable **proof-of-value-per-can** turns the cans against their patron — and General Waste,
-deprived of his loop, simply stops existing.
-
-## The governance cosmology — myth as a coat
-
-> Every name in this section is an **optional label for a real engineering role** (see
-> [`reality_kernel/`](reality_kernel/), Filing 2). The names are severable; the machinery is not.
-> None of it is metaphysics.
-
-How the crew grows and supervises a PolieBot is also the show's deepest myth. A governed agent
-lives between being **Embodied** (in the real world, tightly gated) and **Docked** (inside a
-simulated world, *Maya*, built by a world-builder kernel, *Gaia*); inside the dock it **Dreams**
-(training that is reverted on waking) and re-enters the world only through a verification gate. A
-governance recogniser, *Omega*, alternates the modes and enforces the law.
-
-That law is the universe's non-violence ethic, written as code: **five hard floors** —
-*Elimination, Crippling, Torture, Abandonment, Despair-induction* — that are never overridden by
-any calculation; and a **seven-axis conscience** (Patience, Charity, Diligence, Humility, Kindness,
-Temperance, Chastity, against their vices). Agents are never *eliminated* for falling toward a bad
-attractor — they are **brought back up** from it, with evidence, never force.
-
-## CittaDel
-
-**CittaDel** is the twenty-six-metre steel cruiser that is the crew's moving home, workshop, and
-laboratory — currently abroad, making her way toward Ireland and the Shannon, where the waters
-around Big Yellow Island become home anchorage. Her colours are **blue and white**. She is the
-*inter-zone research vessel*: lab bench, specimen containment, sensor package, PolieBot docks, a
-workstation for visiting investigators. And she has a crew member of her own: **BOSUN** (*Barge
-Operations Supervision, Upkeep and Navigation*), the ship's AI — **a regular LLM agent, with no
-PolieBotics magic**, kept deliberately ordinary. The universe holds a hard line between everyday
-automation and the Reality Kernel, and BOSUN is that line with a name.
-
-## The ethos — why non-violence is the *stable* strategy
-
-Non-violence is **load-bearing**, not decoration — and in this world it isn't only a virtue, it's
-the **winning strategy.** Polie's help is valuable enough that losing it is catastrophic, so the
-rule that *any aggression repels her, and a willful kill can sever her for life* turns restraint
-into a **commitment device**: even a tempted mortal is rationally bound to it, because the one-time
-gain of force is dwarfed by the permanent loss of Polie.
-
-That is why the PoliePals' one-person "war on crime" is more stable than the violent kind. Fighting
-crime with force is a war on *criminals* — a **linear forcing function on a complex, non-linear
-system**, whack-a-mole, a bad way to do it. The real method is to **shift the Nash equilibrium
-toward cooperation**: reduce the reward for ill intent and **starve the negative-sum loop** until
-it has nothing left to feed on. Minimise force; **find** better equilibria rather than impose them;
-make truth **legible** rather than merely assert it — scope a claim down, commit, and measure
-before the data. The gadgets are not props; they are how a better equilibrium is made visible,
-provable, and therefore reachable. These are the same values the real project holds itself to.
 
 ## Origin — a commit reveal
 
@@ -269,10 +128,11 @@ That willingness is also what made a **redemption arc** possible. In this cosmol
 it is an *instrument*: its energy can exploit **non-linearities in a timeline to induce
 bifurcations**, branch points at which the **world-tubes** of souls who would benefit from a world
 that has this technology can join the branch his arc opens, while those better off in a different
-one keep theirs. *(None of that vocabulary is invented for the story — world-tubes, and the gauges
-that measure a change to one, are real terms in the filings, where this is **general doctrine, not a
-personal exception**: an agent falling toward a bad attractor is brought back up, never eliminated.
-His arc is one instance of machinery meant for anyone.)*
+one keep theirs. *(This is **his testimony**, not a claim on the technology: the timeline-bifurcation
+imagery is how he describes his own experience, **never** an instrument capability grounded in the
+filings. What the filings **do** carry — as severable, optional nomenclature — is the governance
+doctrine the imagery rhymes with: an agent falling toward a bad attractor is **brought back up**, with
+evidence, never eliminated. His arc is one person's account of a principle meant for anyone.)*
 
 That doctor **coordinated the work.** She read Cathal's gift for seeing **alternative-future cones**
 as a map, and used it to steer his education toward the one downstream that produces **this very
@@ -590,9 +450,12 @@ glow that rises off people engaged in the work they are *for*, read as flow, vit
 **after longer exposure**, **coloured auras**: a second, **emotional** register. *Both* are what the
 testament records, in that order; the show's colour-is-identity convention is how the production
 renders the latter. The **Narravite token** itself is real — a scene-bound physically-unclonable
-commitment (Filing 1), and real markets price its PUF "charge"; what is **fiction** is the *"Narrative
+commitment (Filing 1), a PUF value a market *could* price; what is **fiction** is the *"Narrative
 energy"* the story binds to it — the emotional/aura energon, which has **no direct link** to the real
 mechanism. What he holds open is not *whether* he saw the métier-light and auras, but the *why* of them.
+*(No crypto asset, token, or security is offered or sold; "token" and "markets" name a research
+mechanism described in the filings, not an investment or a promise of return. Voluntary donations to
+support the work are gifts.)*
 
 **Errors can enter at every layer** — in memory's recollection of it, in the LLM's rendering of that
 memory, in the operationalisation, and in the story drawn over it. None of it is offered as the
