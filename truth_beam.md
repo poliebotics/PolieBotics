@@ -19,7 +19,7 @@ time — not an unconditional guarantee.
 
 ## Reference implementation — the measured system
 
-The [TruthBeam](https://github.com/poliebotics/TruthBeam) repo carries the measured implementation and its
+The [TruthBeam](https://github.com/poliebotics/truthbeam) repo carries the measured implementation and its
 whitepaper (PDF + full LaTeX source). At each chain step a 32-byte chain state is **BLAKE3-XOF**-expanded
 into a deterministic fractional-Brownian-motion emission tile (bit-exact integer renderer), projected, and
 captured as a raw 8-bit BayerRG8 frame; the capture's hash is folded — with the **drand** public-randomness
@@ -33,7 +33,7 @@ adaptive-attacker claim. *(Figures as reported in the companion whitepaper, link
 to the run's checkpoint and evaluation summary — 39,769,828 verifier parameters, AUROC 1.000 on the
 n = 198 (D2) and n = 200 (V10) held-out sets. These ML figures live in the companion TruthBeam artifacts
 — checkpoints, negatives, per-pair scores; the released dataset lets you re-walk the hash chain, not
-recompute the metric.)* The repo includes third-party verification scripts (code → generator hash →
+recompute the metric.)* The TruthBeam repo includes third-party verification scripts (code → generator hash →
 chain re-walk) that run against the [released sessions](DOWNLOADS.md) without a GPU.
 
 **Lineage — the earlier implementation.** An earlier, AI-assisted implementation previously

@@ -34,7 +34,7 @@ filing, the dataset, or the video.
 - [truth_beam.md](truth_beam.md): verification regime + early-prototype lineage
 - [reality_transform.md](reality_transform.md): rendering regime + early-work history (sporadic stability, stereo-pair acquisition)
 - [limager.md](limager.md): perception regime
-- [computation.md](computation.md): PoliePuter, experimental physical computation
+- [computation.md](computation.md): PoliePuter — physical computation, the broadest kernel extension (described and enabled in the filings)
 - [LICENSE](LICENSE): all rights reserved; non-binding statement of intent for a research/personal-use licence
 - [TRADEMARKS.md](TRADEMARKS.md): canonical trade-mark status table (registered ® vs applied-for ™)
 - [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md): upstream open-source projects used by Reality Transform
@@ -57,5 +57,5 @@ filing, the dataset, or the video.
 
 ## Related repositories
 
-- [TruthBeam](https://github.com/poliebotics/TruthBeam): verification code and whitepaper
+- [TruthBeam](https://github.com/poliebotics/truthbeam): verification code and whitepaper
 - [RealityTransform](https://github.com/poliebotics/RealityTransform): early rendering-loop experiments

@@ -57,7 +57,7 @@ One front-end; three objective families, all read off the same convolution bundl
 
 - **[Truth Beam](truth_beam.md)** — *verification* ("who are you?"). Attests the provenance of the physical
   light-in / light-out interaction under declared threat models — **not** the semantic truth of a staged scene.
-  ([example code](https://github.com/poliebotics/TruthBeam) · [dataset downloads](DOWNLOADS.md) — two ground-truth sessions, ~378 GiB on R2; also content-addressed on IPFS — per-session CIDs in [`DOWNLOADS.md`](DOWNLOADS.md))
+  ([example code](https://github.com/poliebotics/truthbeam) · [dataset downloads](DOWNLOADS.md) — two ground-truth sessions, ~378 GiB on R2; also content-addressed on IPFS — per-session CIDs in [`DOWNLOADS.md`](DOWNLOADS.md))
 - **[Limager](limager.md)** — *perception* ("what is out there?"). Active sensing, 3D, and semantic analysis from the
   physical responses.
 - **[Reality Transform](reality_transform.md)** — *controllable rendering* ("make it look like this"). Adaptive
@@ -103,7 +103,7 @@ and Yoked-coupling-quality meters. They bound what counts as admissible and gate
 ## Witness mesh
 
 The principal deployment described in the filings is a **witness mesh**: several Reality Kernel modules linked by continuous,
-**low-latency analogue couplings**, so the *joint* record across the mesh stays hard to forge under bounded
+**low-latency analogue couplings**, intended so that the *joint* record across the mesh stays hard to forge under bounded
 adversaries even if a single module is attacked. (Modules can additionally exchange digital evidence and cross-verify
 shared events as a separate networked mode.) A single module is a valid standalone building block.
 
