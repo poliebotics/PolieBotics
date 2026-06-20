@@ -22,7 +22,7 @@ not yet true.
   `tools/r2_release_check.sh`; it must pass (0 placeholders) before publish.
 
 ## 1a. Mask binaries — upload to R2  *(blocker for the mask page)*
-The `mask/` page links to `__POLIEBOTICS_BASE__/mask/Mask_For_Printing.{stl,obj,stp}`, but the binaries are
+The `mask/` page links to `https://data.poliebotics.com/mask/Mask_For_Printing.{stl,obj,stp}`, but the binaries are
 not yet on R2 (too large for git — the STL is ~206 MB, over GitHub's 100 MB limit).
 - **Staged at:** `/home/c/Documents/poliebotics_mask_r2_staging/mask/` (URL-friendly names).
 - **Fix:** upload to R2 under `mask/` (e.g. `rclone copy /home/c/Documents/poliebotics_mask_r2_staging/mask r2:truthbeam/mask`),
