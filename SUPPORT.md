@@ -5,10 +5,7 @@ allow) the dataset. If the work is useful to you and you'd like to help sustain 
 addresses below are **welcome and entirely voluntary**.
 
 > **Not an offering.** Contributions are **gifts** — **no crypto asset, token, security, or investment is
-> offered or sold here**, and nothing promises any financial return. A *Digital First Edition* is a
-> **signed, numbered digital keepsake** of this release — a collectible memento only; it confers **no
-> ownership, equity, revenue, governance, redemption right, or expectation of profit**, and is not a
-> financial instrument.
+> offered or sold**, and nothing promises any financial return.
 
 > **Verify before you send.** Every address here has been **checksum-validated** and its destination
 > **confirmed on the signing device**. But a web page can be tampered with — so trust the
@@ -63,3 +60,7 @@ anything signed by it. You can also use this key to send us **encrypted** mail.
 *Contact details and keys may rotate over time; when they do, the change will be **signed by the
 current key**. Always anchor trust to the fingerprint, verified across multiple channels — not to any
 one address or page.*
+
+<sub>*Supporters may, optionally, receive a small commemorative digital "first edition" as a token of
+thanks — a keepsake, not a financial instrument: no ownership, revenue, redemption, or expectation of
+profit.*</sub>

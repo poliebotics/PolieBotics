@@ -2,6 +2,13 @@
 
 *Projector–camera systems that bind **physical interactions** to **committed, auditable evidence**.* Patent pending · all rights reserved.
 
+> **See for yourself — ~2 minutes, no GPU, no login, nothing to buy.** The headline result is
+> *recomputable from public files.* In the [Truth Beam repository](https://github.com/poliebotics/truthbeam),
+> `bash verify_all.sh` recomputes **AUROC = 1.000** *and* independently re-checks the on-chain temporal
+> binding (RSK-mainnet anchor transactions + drand signatures) + random-frame hashes — all from public
+> URLs. No token, no gated weights, no "DM for the real files." **Scams ask you to trust; this asks you to
+> recompute.** (Even the time-binding alone is confirmable just by opening a block explorer — no code.)
+
 > **How this is written — provenance & error.** The **patent filings**
 > ([`reality_kernel/`](reality_kernel/)) are **authoritative on themselves** — the citation for their
 > own claims, and nothing more. They are **human-authored *through* an LLM** (the inventor directs,
@@ -35,9 +42,9 @@ author's **testament** — his personal first-person account, offered as *testim
 proof** — is set down in [`universe.md`](universe.md). None adjudicates the others; **your own
 engagement with reality is the final authority.**
 
-To **support the work** — or collect a *Digital First Edition* — see [`SUPPORT.md`](SUPPORT.md): the
-project's BTC / ETH / RSK addresses (checksum-validated, device-confirmed) and its **GPG key and
-fingerprint** for verifying signed releases and sending encrypted mail.
+Supporting the work is **entirely optional** — voluntary gifts, with **no token, security, or return
+offered or sold**. If you'd like to, [`SUPPORT.md`](SUPPORT.md) has the details; it also carries the
+project's **GPG key and fingerprint** for verifying signed releases and sending encrypted mail.
 
 ## The Reality Kernel
 
