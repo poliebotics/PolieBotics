@@ -7,6 +7,18 @@ All 47 captured iterations plus the inverse-mapping figures. Inline images are w
 ~5 MB each, hosted on Cloudflare R2). Captures may look dull to the human eye;
 conventional-camera video is on social media.
 
+## Demonstration videos
+
+Single-loop Reality Transform demos showing compatibility with common, off-the-shelf creative tools.
+These are the **easy-mode** path — *fast and easy to train, quick to deploy* — at the cost of some
+**warping around edges**, since each is just **one feedback loop** (no digital twinning here).
+
+- **[OpenPose feedback](__POLIEBOTICS_BASE__/gallery/realitytransform/videos/posetnet.mp4)** (~2 min) —
+  Reality Transform driven by OpenPose pose estimation in a straightforward feedback loop.
+- **[Deforum feedback — I](__POLIEBOTICS_BASE__/gallery/realitytransform/videos/deforum_I.mp4)**
+  · **[II](__POLIEBOTICS_BASE__/gallery/realitytransform/videos/deforum_II.mp4)** (~2 min each) —
+  Reality Transform in a simple feedback loop with Deforum.
+
 ## Inverse-mapping figures
 
 [![iter_001_A_input](__POLIEBOTICS_BASE__/gallery/realitytransform/previews/iter_001_A_input.jpg)](__POLIEBOTICS_BASE__/gallery/realitytransform/images/iter_001_A_input.png)
