@@ -68,10 +68,16 @@ recording happened. Verification scripts ship in the
 [TruthBeam repository](https://github.com/poliebotics/truthbeam). See
 [`DOWNLOADS.md`](DOWNLOADS.md) for the data.
 
-## Is the person in the dataset a consenting subject?
+## Is the person in the dataset a consenting subject? What about ethics and biometric data?
 
-Yes. Both ground-truth sessions feature a single identifiable performer — the author/operator
-himself, dressed differently per session — who consents to the publication of his own likeness.
+Yes. Both ground-truth sessions feature a **single identifiable performer — the author/operator
+himself**, dressed differently per session, who **consents to the publication of his own likeness**.
+**No third party is depicted**, so there are no external human subjects: this is **one person publishing
+his own biometric likeness**, deliberately, for research verification of the recording protocol. That is
+why there is no third-party-subjects review board process — the consenting subject *is* the author. The
+whitepaper additionally applies **ethical-display rules** (shared real/altered thresholds, no misleading
+panels), and the dataset page ([`DOWNLOADS.md`](DOWNLOADS.md)) carries a **biometric/likeness notice**.
+Treat the corpus as the author's own likeness, published for research, and use it respectfully.
 
 ## What is the relationship between the old TruthBeam prototype and the current system?
 
