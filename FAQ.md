@@ -19,6 +19,19 @@ frames are the committed sequence, recorded under the declared protocol, at the 
 with a real device having lit this scene with the chain-derived pattern). What is proven most strongly is
 **consistency with a committed recording-protocol execution** — not truth writ large.
 
+## What is the single most important thing the Truth Beam proves?
+
+**Time-boundedness of the projection** — less the forgery score, more this. It has two parts. The
+**offline, GPU-free chain re-walk** proves the frames are one ordered, tamper-evident sequence whose
+recomputed terminal state matches the committed anchor. The **external time window** is then established
+on public networks: the genesis state folds in a freshly-waited **RSK** mainnet block (so the session
+could not have been produced before it), **drand** quicknet rounds folded through the chain add a
+**BLS-verifiable** freshness floor (≈ one round / 3 s), and a final-root **RSK** transaction commits the
+end state once confirmed (so it could not be back-dated). For the two released sessions these online
+checks have been run — each is bound to a real on-chain interval at a ~2.5 Hz commit rate (see the
+TruthBeam repo's `TEMPORAL_VERIFICATION.md`). This whole story is independent of the learned verifier,
+which is only the secondary, empirical check of physical coupling.
+
 ## Is the security formally proven? Zero-knowledge? Unconditional?
 
 No, and the documents never claim so. Security rests on **empirical hardness**: how hard it is to

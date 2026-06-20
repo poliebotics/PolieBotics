@@ -17,6 +17,18 @@ hardness comes from reactor nonlinearity and manufacturing
 microstructure, and is a *measured* quantity — specific to a declared attacker family, compute budget, and moment in
 time — not an unconditional guarantee.
 
+**What the binding most crucially proves — time-boundedness.** The load-bearing guarantee is not the learned
+forgery score but the **temporal binding of the projection**, in two parts. *Offline* (a GPU-free chain re-walk)
+establishes **ordering and tamper-evidence** and that the recomputed terminal state `S_N` equals the committed
+anchor value. *On public networks* it establishes the **external time window**: the genesis state `S_0` folds in a
+freshly-waited **Rootstock (RSK)** mainnet block (session-open lower bound — the session could not predate it),
+**drand** quicknet rounds folded through the chain add a **BLS-verifiable** per-round freshness floor, and a
+final-root **RSK** transaction commits `S_N` once confirmed (upper bound, back-dating guard). For the two released
+sessions these online checks have been run — each is bound to a real on-chain interval at a ~2.5 Hz commit rate
+(D2: 2026-04-25 02:07:48→02:48:47 UTC; see the TruthBeam repo's `TEMPORAL_VERIFICATION.md`). The window is between
+anchors, not a per-frame wall-clock, and says nothing about semantic truth. All of this stands independently of the
+learned verifier — the secondary empirical layer scoring physical coupling on top.
+
 ## Reference implementation — the measured system
 
 The [TruthBeam](https://github.com/poliebotics/truthbeam) repo carries the measured implementation and its
