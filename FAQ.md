@@ -12,6 +12,13 @@ hash-chain-derived pattern onto a real scene at recording time. It says nothing 
 **semantic** truth of what was staged in front of the device. A genuine recording of a deception is
 still a genuine recording.
 
+Concretely, the two mechanisms prove two different things, and **neither proves unstaged semantics**:
+the **hash-chain + drand/Rootstock anchors** prove *archive integrity and protocol/time consistency* (the
+frames are the committed sequence, recorded under the declared protocol, at the anchored time); the
+**learned verifier** adds *empirical evidence of physical optical coupling* (the capture is consistent
+with a real device having lit this scene with the chain-derived pattern). What is proven most strongly is
+**consistency with a committed recording-protocol execution** — not truth writ large.
+
 ## Is the security formally proven? Zero-knowledge? Unconditional?
 
 No, and the documents never claim so. Security rests on **empirical hardness**: how hard it is to
