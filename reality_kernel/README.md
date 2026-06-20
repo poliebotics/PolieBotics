@@ -69,6 +69,13 @@ published emit→detect→transform loop) — is the foundation; **Filing 1** de
 **apparatus**; **Filing 2** adds the **runtime governance architecture**.
 Build a filing PDF, e.g.: `cd latex && latexmk -pdf PIGMIE_Filing1_Description_v0_38.tex`
 
+## Citing these filings
+
+All three filings (WO parent + Filing 1 + Filing 2), description **and** drawings, are content-addressed
+on **IPFS** and pinned — see **[`CITING.md`](CITING.md)** for per-document IPFS CIDs, SHA-256 hashes, a
+one-line "how to cite," and ready-made BibTeX. The CIDs are also in the repo's
+[`CID_MANIFEST.json`](../CID_MANIFEST.json) (`patent_filings`).
+
 ## Status & rights
 
 Patent pending — PIGMIE Filing 1 & Filing 2 (and the parent application published as WO 2025/046153 A2),
