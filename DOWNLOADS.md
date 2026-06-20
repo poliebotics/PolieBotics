@@ -17,7 +17,7 @@ a slice instead of the whole corpus:
 |---|---|---|
 | `scores` | **~2 MB** | Path A inputs — recompute the headline AUROC yourself |
 | `models` | ~1.1 GB | verifier (456 MB) + F-A v1 forger checkpoints |
-| `sample [d2\|v10]` | **~150 MB** | a *taste* of one session: metadata + 12 preview/emission pairs + 3 raw frames — enough to **see** the data |
+| `sample [d2\|v10]` | **~180 MB** | a *taste* of one session: metadata + 8 preview/emission pairs + 2 raw frames — enough to **see** the data |
 | `video` | ~640 MB | the hand-made 2023 video (+ the 64 s intro) |
 | `session d2\|v10` | 232 / 146 GiB | a full ground-truth session |
 | `all` | 378 GiB | everything |
