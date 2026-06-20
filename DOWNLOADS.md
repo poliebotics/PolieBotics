@@ -3,6 +3,11 @@
 The two ground-truth example sessions are hosted on Cloudflare R2 (~378 GiB total,
 **29,266 files**). R2 serves direct downloads with **no egress fees**.
 
+> **Biometric / likeness notice.** These sessions contain video of an **identifiable human performer** —
+> the author/operator himself, who **consents** to publication of his own likeness (he is the sole
+> subject). The data is published for **research verification of the recording protocol**; it is a
+> biometric/likeness corpus, so use it accordingly and respectfully. No other person is depicted.
+
 Every object has its own direct URL. The complete, machine-readable lists (one URL per
 line, ready for `wget -i` / `curl`) are:
 

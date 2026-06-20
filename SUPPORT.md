@@ -1,12 +1,14 @@
 # Support PolieBotics
 
 PolieBotics is released as a public good — the instruments, the filings, and (as consent and timing
-allow) the dataset. If the work is useful to you and you'd like to help sustain it, or to collect a
-**Digital First Edition**, you can contribute to the addresses below.
+allow) the dataset. If the work is useful to you and you'd like to help sustain it, contributions to the
+addresses below are **welcome and entirely voluntary**.
 
-*Contributions are voluntary support, and a Digital First Edition is a collectible — **no crypto asset,
-token, or security is currently offered or sold**, and nothing here is an investment or a promise of
-financial return.*
+> **Not an offering.** Contributions are **gifts** — **no crypto asset, token, security, or investment is
+> offered or sold here**, and nothing promises any financial return. A *Digital First Edition* is a
+> **signed, numbered digital keepsake** of this release — a collectible memento only; it confers **no
+> ownership, equity, revenue, governance, redemption right, or expectation of profit**, and is not a
+> financial instrument.
 
 > **Verify before you send.** Every address here has been **checksum-validated** and its destination
 > **confirmed on the signing device**. But a web page can be tampered with — so trust the
