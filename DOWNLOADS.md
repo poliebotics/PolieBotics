@@ -8,6 +8,23 @@ The two ground-truth example sessions are hosted on Cloudflare R2 (~378 GiB tota
 > subject). The data is published for **research verification of the recording protocol**; it is a
 > biometric/likeness corpus, so use it accordingly and respectfully. No other person is depicted.
 
+## You don't need 378 GiB to look — `download.sh`
+
+The [TruthBeam repo](https://github.com/poliebotics/truthbeam) ships a friendly tiered downloader — grab
+a slice instead of the whole corpus:
+
+| `./download.sh <tier>` | Size | What you get |
+|---|---|---|
+| `scores` | **~2 MB** | Path A inputs — recompute the headline AUROC yourself |
+| `models` | ~1.1 GB | verifier (456 MB) + F-A v1 forger checkpoints |
+| `sample [d2\|v10]` | **~150 MB** | a *taste* of one session: metadata + 12 preview/emission pairs + 3 raw frames — enough to **see** the data |
+| `video` | ~640 MB | the hand-made 2023 video (+ the 64 s intro) |
+| `session d2\|v10` | 232 / 146 GiB | a full ground-truth session |
+| `all` | 378 GiB | everything |
+
+`scores` + the repo's `verify_all.sh` reproduces the whole headline in ~2 minutes; `sample` lets you
+open real previews/emissions and read a `chain_log.csv`. The full per-file lists + IPFS CIDs are below.
+
 Every object has its own direct URL. The complete, machine-readable lists (one URL per
 line, ready for `wget -i` / `curl`) are:
 
