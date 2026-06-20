@@ -108,5 +108,6 @@
       "commit": "75584c6"
     }
   },
-  "verify_note_videos": "videos/models/examples are CIDv0 (default `ipfs add`, == Pinata). Verify any file: `ipfs add --only-hash -Q <file>` must equal the listed CID."
+  "verify_note_videos": "videos/models/examples are CIDv0 (default `ipfs add`, == Pinata). Verify any file: `ipfs add --only-hash -Q <file>` must equal the listed CID. All videos/models/examples listed here are PINNED on Pinata \u2014 retrievable via any IPFS gateway by CID.",
+  "pinned_on_pinata": true
 }
