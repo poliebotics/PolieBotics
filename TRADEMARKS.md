@@ -18,6 +18,8 @@ marks and ™ for applied-for / pending marks.**
 | Reality Kernel | IPOI | Pending | 2025/03255 | 9 | ™ |
 | Narravite | IPOI | Accepted (not yet registered) | 274828 | 9 | ™ |
 | Limager | IPOI | Applied-for (filed 2026-06-18) | FIIE202600000340297 (cl. 41), …300 (cl. 9, 42) | 41, 9, 42 | ™ |
+| PolieProtectorate | IPOI | Applied-for (filed 2026-06-18) | FIIE202600000340298 | 41 | ™ |
+| PoliePaladin | IPOI | Applied-for (filed 2026-06-18) | FIIE202600000340299 | 41 | ™ |
 
 **Note on "Limager" vs "Limage":** the register holds **"Limage" (270047, registered, class 9)**;
 **"Limager"** (the spelling used in the publication and the patent filings) is the subject of the
