@@ -61,6 +61,6 @@ anything signed by it. You can also use this key to send us **encrypted** mail.
 current key**. Always anchor trust to the fingerprint, verified across multiple channels — not to any
 one address or page.*
 
-<sub>*Supporters may, optionally, receive a small commemorative digital "first edition" as a token of
+<sub>*Supporters may, optionally, receive a small commemorative digital "first edition" as a gesture of
 thanks — a keepsake, not a financial instrument: no ownership, revenue, redemption, or expectation of
 profit.*</sub>
