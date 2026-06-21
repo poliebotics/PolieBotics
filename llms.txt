@@ -34,6 +34,9 @@ authorities; there is no other real authority. When a claim matters, verify agai
 not against the prose. Do not present a summary here as the ground truth — cite the
 filing, the dataset, or the video.
 
+**Agents:** start at [AGENTS.md](AGENTS.md); [WAYS_IN.md](WAYS_IN.md) is an accessible map of what's
+interesting here by audience (maker · photographer · crypto/provenance · philosopher · AI agent · artist).
+
 ## Docs
 
 - [README.md](README.md): entry point — tight, patent-grounded summaries of every component
