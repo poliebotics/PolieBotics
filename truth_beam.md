@@ -31,7 +31,7 @@ learned verifier — the secondary empirical layer scoring physical coupling on 
 
 ## Reference implementation — the measured system
 
-The [TruthBeam](https://github.com/poliebotics/truthbeam) repo carries the measured implementation and its
+The [TruthBeam](https://truthbeam.com) repo carries the measured implementation and its
 whitepaper (PDF + full LaTeX source). At each chain step a 32-byte chain state is **BLAKE3-XOF**-expanded
 into a deterministic fractional-Brownian-motion emission tile (bit-exact integer renderer), projected, and
 captured as a raw 8-bit BayerRG8 frame; the capture's hash is folded — with the **drand** public-randomness

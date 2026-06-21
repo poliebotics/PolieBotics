@@ -66,11 +66,11 @@ One front-end; three objective families, all read off the same convolution bundl
 
 - **[Truth Beam](truth_beam.md)** — *verification* ("who are you?"). Attests the provenance of the physical
   light-in / light-out interaction under declared threat models — **not** the semantic truth of a staged scene.
-  ([example code](https://github.com/poliebotics/truthbeam) · [dataset downloads](DOWNLOADS.md) — two ground-truth sessions, ~378 GiB on R2; also content-addressed on IPFS — per-session CIDs in [`DOWNLOADS.md`](DOWNLOADS.md))
+  ([example code](https://truthbeam.com) · [dataset downloads](DOWNLOADS.md) — two ground-truth sessions, ~378 GiB on R2; also content-addressed on IPFS — per-session CIDs in [`DOWNLOADS.md`](DOWNLOADS.md))
 - **[Limager](limager.md)** — *perception* ("what is out there?"). Active sensing, 3D, and semantic analysis from the
   physical responses.
 - **[Reality Transform](reality_transform.md)** — *controllable rendering* ("make it look like this"). Adaptive
-  son-et-lumière projection constrained to the physical channel. ([example code](https://github.com/poliebotics/RealityTransform))
+  son-et-lumière projection constrained to the physical channel. ([example code](https://data.poliebotics.com/gallery/))
 
 **Yoked** operation is an optional coupling *modifier* (not a fourth regime): device and scene are driven toward a
 joint dynamical state, so the bundle encodes their coupled dynamics rather than static properties.

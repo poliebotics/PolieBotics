@@ -3,7 +3,7 @@
 The **Reality Transform** experiments build on third-party open-source projects, with
 light modification ("much of the scaffolding is upstream code with light modification" —
 [`reality_transform.md`](reality_transform.md)). The derivative code itself lives in the separate
-[RealityTransform](https://github.com/poliebotics/RealityTransform) repository, which carries its own
+[RealityTransform](https://data.poliebotics.com/gallery/) repository, which carries its own
 `LICENSE`/notices; this file lists the upstream projects so readers of *this* repository don't have to
 find them elsewhere.
 

@@ -10,7 +10,7 @@ The two ground-truth example sessions are hosted on Cloudflare R2 (~378 GiB tota
 
 ## You don't need 378 GiB to look — `download.sh`
 
-The [TruthBeam repo](https://github.com/poliebotics/truthbeam) ships a friendly tiered downloader — grab
+The [TruthBeam repo](https://truthbeam.com) ships a friendly tiered downloader — grab
 a slice instead of the whole corpus:
 
 | `./download.sh <tier>` | Size | What you get |

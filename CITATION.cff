@@ -9,7 +9,7 @@ authors:
 type: software
 license: LicenseRef-All-Rights-Reserved
 license-url: "LICENSE"
-repository-code: "https://github.com/poliebotics/PolieBotics"
+repository-code: "https://poliebotics.com"
 keywords:
   - tamper-evidence
   - provenance

@@ -38,7 +38,7 @@ and captured them, then a **fast runtime student** learned to reproduce the capt
 
 The working stable demonstration (WO 2025/046153 A2 era) ran a **basic, edge-preserving fast
 style-transfer** student; compute of the time held it to **simple styles**. The
-[RealityTransform](https://github.com/poliebotics/RealityTransform) repo reaches further — learning the
+[RealityTransform](https://data.poliebotics.com/gallery/) repo reaches further — learning the
 scene's *inverse response* with **pix2pixHD** (Wang et al., NVIDIA/Berkeley), with **human-body
 pose-conditioning via OpenPose ControlNet**, guided through **ComfyUI / Stable Diffusion** — but those richer-style
 experiments ran as a **single-step, slow loop** and were the least stable of the lot. Probe textures came

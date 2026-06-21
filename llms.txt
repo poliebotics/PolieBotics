@@ -63,7 +63,7 @@ filing, the dataset, or the video.
 - The author's **Cathal** costume **mask** (a bauta — Alfonso's execution of the author's concept, with
   novel reflective conical-hole eyes) lives in the PoliePals fiction layer: https://poliepals.com.
 
-## Related repositories
+## Related sites
 
 - [TruthBeam](https://github.com/poliebotics/truthbeam): verification code and whitepaper
 - [RealityTransform](https://github.com/poliebotics/RealityTransform): early rendering-loop experiments

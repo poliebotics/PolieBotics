@@ -86,4 +86,4 @@ research- and personal-use licence available and is preparing terms. Until a wri
 is granted by this publication; contact the author (xathal@protonmail.com) for research/personal-use permission.
 
 The TruthBeam implementation and verifier live in the separate
-[TruthBeam](https://github.com/poliebotics/truthbeam) repository.
+[TruthBeam](https://truthbeam.com) repository.

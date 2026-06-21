@@ -65,7 +65,7 @@ state and capture hash; emissions re-derive deterministically (bit-exactly) from
 the genesis state commits to a digest of the tile-generator source code; and the chain is anchored
 outward to the drand randomness beacon and the Rootstock (RSK) public ledger, bounding *when* the
 recording happened. Verification scripts ship in the
-[TruthBeam repository](https://github.com/poliebotics/truthbeam). See
+[TruthBeam repository](https://truthbeam.com). See
 [`DOWNLOADS.md`](DOWNLOADS.md) for the data.
 
 ## Is the person in the dataset a consenting subject? What about ethics and biometric data?
@@ -82,10 +82,10 @@ Treat the corpus as the author's own likeness, published for research, and use i
 ## What is the relationship between the old TruthBeam prototype and the current system?
 
 The repositories record an evolution. The
-[TruthBeam repository](https://github.com/poliebotics/truthbeam) carries the current measured system
+[TruthBeam repository](https://truthbeam.com) carries the current measured system
 (whitepaper, protocol source, verifier); its earlier prototype (RSK-seeded Perlin noise, BLAKE3
 hash-chain, adversarial-autoencoder forensics) and the early
-[Reality Transform](https://github.com/poliebotics/RealityTransform) experiments are
+[Reality Transform](https://data.poliebotics.com/gallery/) experiments are
 **intermediate evolutionary steps**, summarised honestly in [`truth_beam.md`](truth_beam.md) and
 [`reality_transform.md`](reality_transform.md). The authoritative formulation is the
 **Reality Kernel** ([`reality_kernel/`](reality_kernel/)). Where summaries disagree with older
