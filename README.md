@@ -2,11 +2,12 @@
 
 *Projector–camera systems that bind **physical interactions** to **committed, auditable evidence**.* Patent pending · all rights reserved.
 
-> **See for yourself — ~2 minutes, no GPU, no login, nothing to buy.** The headline result is
-> *recomputable from public files.* In the [Truth Beam repository](https://github.com/poliebotics/truthbeam),
-> `bash verify_all.sh` recomputes **AUROC = 1.000** *and* independently re-checks the on-chain temporal
-> binding (RSK-mainnet anchor transactions + drand signatures) + random-frame hashes — all from public
-> URLs. No token, no gated weights, no "DM for the real files." **Scams ask you to trust; this asks you to
+> **See for yourself — ~2 minutes, no GPU, no login, no GitHub, nothing to buy.** The headline result is
+> *recomputable from public files.* Fetch the self-contained bundle from **truthbeam.com** and run it:
+> `curl -fsSL https://data.truthbeam.com/release/truthbeam_verify.tar.gz | tar xz && cd truthbeam_verify && bash verify_all.sh`
+> — it recomputes **AUROC = 1.000** *and* independently re-checks the on-chain temporal binding
+> (RSK-mainnet anchor transactions + drand signatures) + random-frame hashes, all from public URLs. No
+> token, no gated weights, no "DM for the real files." **Scams ask you to trust; this asks you to
 > recompute.** (Even the time-binding alone is confirmable just by opening a block explorer — no code.)
 
 > **How this is written — provenance & error.** The **patent filings**

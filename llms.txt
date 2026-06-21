@@ -8,8 +8,9 @@
 > (perception), Reality Transform (controllable rendering). Patent pending (WO 2025/046153 A2;
 > PIGMIE Filing 1 & 2); all rights reserved, no licence granted by publication.
 
-Check it, don't trust it (start here): the headline recomputes from public files. In the Truth Beam repo
-(github.com/poliebotics/truthbeam) `bash verify_all.sh` recomputes AUROC=1.000 AND re-checks the on-chain
+Check it, don't trust it (start here): the headline recomputes from public files — no GitHub, no login.
+`curl -fsSL https://data.truthbeam.com/release/truthbeam_verify.tar.gz | tar xz && cd truthbeam_verify &&
+bash verify_all.sh` recomputes AUROC=1.000 AND re-checks the on-chain
 temporal binding (RSK-mainnet anchors + drand signatures) + random frames — public URLs only, no token, no
 gated weights, no login. The time-binding alone is confirmable in a block explorer with no code. The
 fiction layer (PoliePals), the personal testament, and optional donations are kept separate from this and
