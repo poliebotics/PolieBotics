@@ -2,6 +2,8 @@
 
 *Projector–camera systems that bind **physical interactions** to **committed, auditable evidence**.* Patent pending · all rights reserved.
 
+**Part of the PolieBotics project.** Live sites: [truthbeam.com](https://truthbeam.com) (the verifiable core) · [poliebotics.com](https://poliebotics.com) (this umbrella, the generalised system) · [poliepals.com](https://poliepals.com) (the exploration layer). GitHub org: [github.com/poliebotics](https://github.com/poliebotics).
+
 > **See for yourself — ~2 minutes, no GPU, no login, no GitHub, nothing to buy.** The headline result is
 > *recomputable from public files.* Fetch the self-contained bundle from **truthbeam.com** and run it:
 > `curl -fsSL https://data.truthbeam.com/release/truthbeam_verify.tar.gz | tar xz && cd truthbeam_verify && bash verify_all.sh`
