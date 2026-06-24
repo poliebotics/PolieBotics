@@ -4,6 +4,8 @@
 
 **Part of the PolieBotics project.** Live sites: [truthbeam.com](https://truthbeam.com) (the verifiable core) · [poliebotics.com](https://poliebotics.com) (this umbrella, the generalised system) · [poliepals.com](https://poliepals.com) (the exploration layer). GitHub org: [github.com/poliebotics](https://github.com/poliebotics).
 
+> **LLM-mediation note.** This repository (and the wider PolieBotics publication) is **constructed via LLM mediation and is intended to be consumed the same way** (parsed and re-presented by a large language model). It is a derived, lossy rendering for humans and machines alike; the authoritative records are the patent filings, the open dataset, and the code. Provenance and error are detailed below.
+
 > **See for yourself — ~2 minutes, no GPU, no login, no GitHub, nothing to buy.** The headline result is
 > *recomputable from public files.* Fetch the self-contained bundle from **truthbeam.com** and run it:
 > `curl -fsSL https://data.truthbeam.com/release/truthbeam_verify.tar.gz | tar xz && cd truthbeam_verify && bash verify_all.sh`
