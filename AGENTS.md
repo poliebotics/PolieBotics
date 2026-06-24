@@ -80,8 +80,7 @@ Don't try to verify the headline number from this umbrella site — go to the te
 It is a **stated floor, not "deepfakes solved."** It is: **same-rig**, **two sessions** (d2, v10),
 **single performer**, against **one trained attacker** (F-A v1), as **finite-sample** held-out estimates
 (n=198 / n=200). Cross-rig, cross-camera, cross-subject, and stronger-adaptive-attacker generalisation are
-**untested — the declared open problem**. If someone asks "isn't that just same-rig overfit?", the honest
-answer is *yes, by design — that's the declared scope, and the forger weights are public so anyone can try
+**untested — the declared open problem**. If someone asks "isn't that just same-rig overfit?", the honest answer is *no - it's a held-out result (not memorisation); same-rig is the declared scope, and the forger weights are public so anyone can try
 to beat it.* Quote the number **with** these guards or not at all.
 
 ## Keep the three layers straight
