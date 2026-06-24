@@ -155,7 +155,7 @@ not yet test-printed**.
 The system is patent pending. The parent application is published as **WO 2025/046153 A2** (*Methods and Apparatus
 for Projector Camera Systems*); PIGMIE **Filing 1** develops it into the Reality Kernel apparatus and **Filing 2**
 adds runtime governance. All three are included in [`reality_kernel/`](reality_kernel/); inventor/applicant
-**Cathal Ryan Hynes** (P.I.G.M.I.E. Ltd).
+**Cathal Ryan Hynes** (an individual; P.I.G.M.I.E. Ltd is the commercial entity).
 
 **All rights reserved. Statement of intent (non-binding; not a licence or grant):** the author intends to make a
 research- and personal-use licence available and is preparing terms. Until a written licence is offered, no licence

@@ -57,7 +57,7 @@ The authoritative technical description is the **patent family**, published here
   SHA-256 `df673c7dcf641ebe33565337ddb7e17fb310ebd75c3f7062e46b07f9429ae3dc`.
 
 To verify a copy: `sha256sum <file>` should reproduce the hash above; `ipfs add --only-hash -Q <file>`
-should reproduce the listed CIDv0. Inventor/applicant **Cathal Ryan Hynes** (P.I.G.M.I.E. Ltd).
+should reproduce the listed CIDv0. Inventor/applicant **Cathal Ryan Hynes** (an individual; P.I.G.M.I.E. Ltd is the commercial entity).
 
 ## The verify path (where the proof actually is)
 
