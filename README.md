@@ -9,7 +9,7 @@
 > **See for yourself - ~2 minutes, no GPU, no login, no GitHub, nothing to buy.** The headline result is
 > *recomputable from public files.* Fetch the self-contained bundle from **truthbeam.com** and run it:
 > `curl -fsSL https://data.truthbeam.com/release/truthbeam_verify.tar.gz | tar xz && cd truthbeam_verify && bash verify_all.sh`
-> - it recomputes **AUROC = 1.000** *and* independently re-checks the on-chain temporal binding
+> - it recomputes the forger-probe **AUROC = 1.000** from the published score tables (Path A) *and* independently re-checks the on-chain temporal binding
 > (RSK-mainnet anchor transactions + drand signatures) + random-frame hashes, all from public URLs. No
 > token, no gated weights, no "DM for the real files." **Scams ask you to trust; this asks you to
 > recompute.** (Even the time-binding alone is confirmable just by opening a block explorer - no code.)
@@ -165,9 +165,9 @@ is granted by this publication; contact the author (xathal@protonmail.com) for r
 
 *Trade marks - Intellectual Property Office of Ireland; proprietor Cathal Ryan Hynes / P.I.G.M.I.E. Ltd.
 **Registered (®):** PolieBotics (269817), Truth Beam (264324), Reality Transform (264371), PoliePuter
-(268617), PolieProboscis (264276), P.I.G.M.I.E. (269723), PoliePals (264325), and PolieBot / The PolieBots
-(264363 / 269642). **Applied-for (™, not yet registered):** Reality Kernel (2025/03255, pending), Narravite
-(274828, accepted), and Limager (applied-for - filed 2026-06-18 in classes 41, 9 and 42; the related mark
+(268617), PolieProboscis (264276), P.I.G.M.I.E. (269723), PoliePals (264325), Narravite (274828), and
+PolieBot / The PolieBots (264363 / 269642). **Applied-for (™, not yet registered):** Reality Kernel
+(2025/03255, pending) and Limager (applied-for - filed 2026-06-18 in classes 41, 9 and 42; the related mark
 "Limage", 270047, is the one on the register). Use ™ for the applied-for marks and ® only for the registered ones.
 Full canonical table: [`TRADEMARKS.md`](TRADEMARKS.md).*
 
